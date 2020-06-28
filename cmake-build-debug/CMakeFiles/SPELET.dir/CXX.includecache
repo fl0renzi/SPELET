@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/FLORENZI/OneDrive/School/Sommarkurs/SPELET/main.cpp
+iostream
+-
+string
+-
+ctime
+-
+algorithm
+-
+

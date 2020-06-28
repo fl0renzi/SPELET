@@ -1,0 +1,3 @@
+C:/Users/FLORENZI/OneDrive/School/Sommarkurs/SPELET/cmake-build-debug/CMakeFiles/SPELET.dir
+C:/Users/FLORENZI/OneDrive/School/Sommarkurs/SPELET/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/FLORENZI/OneDrive/School/Sommarkurs/SPELET/cmake-build-debug/CMakeFiles/rebuild_cache.dir
