@@ -123,7 +123,7 @@ void rednumber() // Funktion för ojämna nummer
 int main() {
     {
 
-        cout << "V\x84lkommen till Roulette spelet !" << endl;
+        cout << "<<<--- V\x84lkommen till Roulette spelet ! --->>>" << endl;
         while (continueplay) {
             if (startingmoney <= 0) {
                 cout << "Slut p\x86 pengar!";
