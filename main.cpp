@@ -135,7 +135,7 @@ int main() {
             cin >> bets;
             if (bets > startingmoney) {
 
-                cout << "Du har inte cash for det";
+                cout << "Du har inte cash for det" << endl;
                 cout << "Avslutar programmet for din skull";
                 exit(0);
             } else {
