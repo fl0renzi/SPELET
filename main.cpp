@@ -3,15 +3,15 @@
 #include <ctime>
 #include <algorithm>
 using namespace std;
-int bets;
-int startingmoney = 1000;
-int winner;
-int loser;
-int number;
-bool continueplay = true;
-int const minnumber = 1, maxnumber = 36;
-int random;
-string val;
+int bets;// Lagrar alla insatser som spelaren gör
+int startingmoney = 1000; // Startkassan som användaren får, i detta fall engligt uppgift 1000kr
+int winner;// variable för att lagra vinnade spel
+int loser; // variable för att lagra förlorade spel
+int number; // variable för när användare väljer ett nummer mellan 1-36
+bool continueplay = true; // bool för att spelet ska loopa hela tiden
+int const minnumber = 1, maxnumber = 36; // konstanter för att slumpa nummer
+int random; // lagrar de slumpmässiga numret
+string val; // variable om användaren vill fortsätta spela
 
 
 void numbersgame() {
@@ -20,7 +20,6 @@ void numbersgame() {
     cout << "V\x84lj en siffra mellan 1-36 :" << endl;
     cin >> number;
     cout << "Siffran \x84r ";
-
     cout << random;
     cout << "\n";
 
