@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 int bets;// Lagrar alla insatser som spelaren gör
-int startingmoney = 1000; // Startkassan som användaren får, i detta fall engligt uppgift 1000kr
+int startingmoney = 1000; // Startkassan som användaren får, i detta fall enligt uppgift 1000kr
 int winner;// variable för att lagra vinnade spel
 int loser; // variable för att lagra förlorade spel
 int number; // variable för när användare väljer ett nummer mellan 1-36
@@ -23,7 +23,9 @@ void numbersgame() {
     cout << random;
     cout << "\n";
 
-    if (random == number) {
+    // IF-sats som kollar ifall spelaren har vunnit samt ökar kassa med 10ggr pengarna
+    if (random == number)//
+    {
         winner = bets * 10 + startingmoney;
         startingmoney = winner;
         cout << "Du har vunnit!" << endl;
@@ -31,7 +33,7 @@ void numbersgame() {
         cout << bets * 10;
         cout << "kr" << endl;
 
-
+    // Om siffran inte stämmer dras bettet av kassan
     } else {
         loser = startingmoney - bets;
         startingmoney = loser;
@@ -40,6 +42,7 @@ void numbersgame() {
         cout << bets;
         cout << "kr" << endl;
     }
+    // Kontroll fråga om användaren vill forsätta spela annars stängs progammet ner
     cout << "Vill du spela igen? j/n ";
     cin >> val;
     if (val == "j") {
