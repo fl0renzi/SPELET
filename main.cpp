@@ -13,10 +13,10 @@ int const minnumber = 1, maxnumber = 36; // konstanter för att slumpa nummer
 int random; // lagrar de slumpmässiga numret
 string val; // variable om användaren vill fortsätta spela
 
-
+// numbersgame för funktionen för 1-36 spelet
 void numbersgame() {
     srand(time(nullptr));
-    random = rand() % (maxnumber - minnumber + 1) + minnumber;
+    random = rand() % (maxnumber - minnumber + 1) + minnumber; // Funktion för att slumpmässigt genera ett tal 1-36
     cout << "V\x84lj en siffra mellan 1-36 :" << endl;
     cin >> number;
     cout << "Siffran \x84r ";
